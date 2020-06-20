@@ -10,6 +10,10 @@
       "version": "6.4.1"
     }
   },
+  "scripts": {
+    "format": "npx prettier --write .",
+    "preview": "tns preview"
+  },
   "dependencies": {
     "nativescript-theme-core": "~2.0.24",
     "svelte-native": "~0.8.0",
@@ -20,6 +24,8 @@
     "svelte": "~3.19.1",
     "svelte-loader-hot": "0.1.1",
     "svelte-native-preprocessor": "^0.1.6",
-    "typescript": "~3.7.5"
+    "typescript": "~3.7.5",
+    "prettier": "^2.0.5",
+    "prettier-plugin-svelte": "^1.1.0"
   }
 }
